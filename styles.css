@@ -605,12 +605,12 @@ section {
 }
 
 .section-logo-white {
-    filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(255, 255, 255, 0.2));
-    opacity: 0.2;
+    filter: brightness(1) invert(0) drop-shadow(0 2px 8px rgba(255, 255, 255));
+    opacity: 1;
 }
 
 .section-logo-white:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .section-header {
@@ -2282,7 +2282,7 @@ section {
     max-width: 200px;
     object-fit: contain;
     transition: transform 0.3s ease;
-    filter: brightness(0) invert(1);
+    filter: brightness(1) invert(0);
 }
 
 .footer-logo-img:hover {
