@@ -123,6 +123,7 @@ body {
     justify-content: flex-end;
     flex: 1;
     margin-left: auto;
+    text-align:center
 }
 
 .nav-link {
@@ -749,6 +750,11 @@ section {
     font-size: 1.6rem;
     position: relative;
     z-index: 1;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.feature-item:nth-child(4) .feature-icon i {
+    color: var(--white);
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
 }
 
